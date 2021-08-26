@@ -51,7 +51,7 @@ class _ProductCardWidgetState extends State<ProductCardWidget> {
           children: [
             IconButton(
               onPressed: () {
-                ProductRepository().deletePr1oducts(id: widget.id);
+                ProductRepository().deleteProducts(id: widget.id);
               },
               icon: Icon(Icons.delete),
             ),
