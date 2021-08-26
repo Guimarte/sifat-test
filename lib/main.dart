@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sifat_test/app/app.dart';
 
-import 'app/features/home/home.dart';
-
 void main() {
   runApp(App());
 }

@@ -11,7 +11,9 @@ class LandingPage extends StatelessWidget {
       child: Column(
         children: [
           Spacer(),
-          Image.asset("assets/images/logo.png"),
+          Image.asset(
+            "assets/images/logo.png",
+          ),
           Spacer(),
           SizedBox(
             width: MediaQuery.of(context).size.width * 0.7,
